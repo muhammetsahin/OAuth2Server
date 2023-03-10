@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <LangVersion>default</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\OAuth2.Events\OAuth2.Events.csproj" />
+      <ProjectReference Include="..\OAuth2.Models\OAuth2.Models.csproj" />
+      <ProjectReference Include="..\OAuth2.Transfer\OAuth2.Transfer.csproj" />
+    </ItemGroup>
+
+</Project>

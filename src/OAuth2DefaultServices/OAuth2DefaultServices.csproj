@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <LangVersion>default</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\OAuth2.Contracts\OAuth2.Contracts.csproj" />
+      <ProjectReference Include="..\OAuth2.Models\OAuth2.Models.csproj" />
+      <ProjectReference Include="..\OAuth2EntityCore\OAuth2EntityCore.csproj" />
+    </ItemGroup>
+
+</Project>
